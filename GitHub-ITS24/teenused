@@ -1,0 +1,3 @@
+#!/bin/bash
+for teenus in apache2 ssh; do
+if systemcti iss-active --quiet
